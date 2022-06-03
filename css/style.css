@@ -9526,11 +9526,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: orange !important;
+  color: #4f0000 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: orange !important;
+  color: #4f0000 !important;
 }
 
 .text-secondary {
