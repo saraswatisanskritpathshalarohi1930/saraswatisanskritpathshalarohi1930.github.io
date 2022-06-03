@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #666666;
   text-align: left;
-  background-color: orange;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9526,7 +9526,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4f0000 !important;
+  color: orange !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
