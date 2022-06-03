@@ -1,1 +1,95 @@
-<h1>Saraswati Sanskrit Pathshala Britishkaleen, Rohit, Estd. 1930</h1>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    * {box-sizing: border-box}
+    .mySlides1, .mySlides2 {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    </style>
+
+<body style="background-color:powderblue;text-align:center;font-size:200%;">
+
+    <h1> सरस्वती संस्कृत पाठशाला ब्रिटिशकालीन रोही एस्टब्लिशड 1930  </h1>
+    <h2>रोही, भदोही </h2>
+
+   
+
+    <!--
+    <img src="schoolfamily.jpg" alt="School Assembly photo" width="80%" height="100%"  style="border:15px solid black">
+    <br/> <br/> <br/>
+    <img src="assembly.jpg" alt="School Assembly photo" width="80%" height="100%"  style="border:15px solid black">
+    -->
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img src="pic1.jpeg"  style="border:15px solid black">
+      </div>
+    
+      <div class="mySlides">
+        <img src="pic2.jpeg"  style="border:15px solid black">
+      </div>
+       <!--
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+       -->
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        } 
+     </script>
+
+</body>
+
+<footer>
+    <h2> संपर्क </h2>
+    <p>मोबाइल न ०  : 9919710781, 9455530939</p>
+    <p>ईमेल  : <a href="mailto:hege@example.com">srswtisnskritpathshalarohi1930@gmail.com</a></p>
+  </footer> 
+
+</html>
